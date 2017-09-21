@@ -1,7 +1,8 @@
 ﻿language: csharp
 solution: RsaHelper.sln
 
-include:
+matrix:
+    include:
     - dotnet: 2.0.0
       mono: none
       dist: trusty
