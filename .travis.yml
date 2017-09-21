@@ -1,5 +1,11 @@
 ﻿language: csharp
 solution: RsaHelper.sln
 
-mono:
-    - latest
+include:
+    - dotnet: 2.0.0
+      mono: none
+      dist: trusty
+      script:
+        - cd RsaHelper
+        - dotnet restore
+        - dotnet build -c Release
