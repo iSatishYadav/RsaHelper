@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaHelper", "RsaHelper\RsaHelper.csproj", "{E5616BB9-3A69-4DB9-B345-A54FEE27A0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaHelper.Tests", "RsaHelper.Tests\RsaHelper.Tests.csproj", "{6FBB96C5-F11F-419A-8D1E-FF28F7540D89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5616BB9-3A69-4DB9-B345-A54FEE27A0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5616BB9-3A69-4DB9-B345-A54FEE27A0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5616BB9-3A69-4DB9-B345-A54FEE27A0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5616BB9-3A69-4DB9-B345-A54FEE27A0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBB96C5-F11F-419A-8D1E-FF28F7540D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBB96C5-F11F-419A-8D1E-FF28F7540D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBB96C5-F11F-419A-8D1E-FF28F7540D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBB96C5-F11F-419A-8D1E-FF28F7540D89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52E2F821-765D-48D4-90B1-11DE6C09BE63}
+	EndGlobalSection
+EndGlobal
