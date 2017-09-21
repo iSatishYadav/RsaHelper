@@ -1,0 +1,5 @@
+﻿language: csharp
+solution: RsaHelper.sln
+
+mono:
+    - latest
