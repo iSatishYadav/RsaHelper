@@ -4,9 +4,9 @@ using System.Text;
 
 namespace RsaHelper
 {
-    public class Crypto
+    public static class Crypto
     {
-        public static string Encrypt(string plainText, string publicKey, int keysize)
+        public static string Encrypt(this string plainText, string publicKey, int keysize)
         {
             #region Housekeeping
             if (plainText == null)
@@ -24,7 +24,7 @@ namespace RsaHelper
             }
 
         }
-        public static string Decrypt(string cipher, string privateKey, int keySize)
+        public static string Decrypt(this string cipher, string privateKey, int keySize)
         {
             if (cipher == null)
                 throw new ArgumentNullException(nameof(cipher));
